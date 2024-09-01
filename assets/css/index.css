@@ -1,0 +1,131 @@
+@font-face {
+  font-family: "Inter";
+  src: url("../fonts/Inter-VariableFont_slnt,wght.ttf");
+}
+* {
+  font-family: Inter, sans-serif;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 12px;
+  background: rgb(20, 20, 20);
+  height: 100vh;
+}
+.container {
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 341px;
+  flex-shrink: 0;
+  border-radius: var(--8, 8px);
+  background: #1f1f1f;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.subcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--16, 16px);
+}
+
+.subcontainer-img {
+  width: 94px;
+  height: 94px;
+  border-radius: 50%;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  align-self: stretch;
+}
+
+.subcontainer-name {
+  color: #fff;
+  font-size: 24.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subcontainer-address {
+  color: #c0d75e;
+  font-size: 12.5px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.subcontainer-information {
+  color: #aaa;
+  font-size: 12.3px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120.986%; /* 10.042px */
+  letter-spacing: -0.083px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.social-media-button {
+  display: flex;
+  width: 264px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 6px;
+  background: #272727;
+  font-size: 12.3px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120.986%; /* 10.042px */
+  letter-spacing: -0.083px;
+
+  border: 0.5px solid #333;
+}
+.social-media-button:hover {
+  background: #333;
+}
+
+.social-media-button:focus {
+  background: #333;
+  outline: none;
+  border: 0.5px solid #909090;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.attribution {
+  font-size: 12.3px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120.986%; /* 10.042px */
+  letter-spacing: -0.083px;
+  color: #aaa;
+  margin-top: 12px;
+}
